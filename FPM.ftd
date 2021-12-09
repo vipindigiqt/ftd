@@ -1,0 +1,6 @@
+-- import: fpm
+
+-- fpm.package: fpm-blog
+
+-- fpm.dependency: fifthtry/blog-theme
+repo: github

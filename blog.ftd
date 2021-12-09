@@ -1,0 +1,85 @@
+-- import: fifthtry/blog-theme as lib
+
+-- lib.toc list toc:
+
+-- toc: Home
+link: /
+
+-- toc: Support
+link: /
+
+-- toc: Contact Us
+link: /
+
+-- toc: Github
+link: /
+
+-- ftd.column:
+width: fill
+id: main
+
+-- lib.banner:
+
+-- container: main
+
+
+-- ftd.column:
+width: fill
+
+-- lib.header:
+logo: https://res.cloudinary.com/dphj6havg/image/upload/v1638644344/Group_551_gqhmnl.svg
+toc: $toc
+
+-- container: main
+
+-- lib.welcome-section: Hello! Welcome to  FPM blog
+
+A ftd package manager”, defines a package format  for packaging ftd files. fpm packages can
+depend on other fpm packages, and fpm can install all the dependencies  of a package.
+
+-- container: main
+
+-- ftd.row:
+width: fill
+spacing: 50
+id: content
+padding-vertical: 40
+padding-horizontal: 100
+
+-- ftd.row:
+width: fill
+spacing: 20
+wrap: true
+
+
+-- lib.blog-card: What is FPM?
+image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_663_raj9bt.png
+date: 04 Oct 2021
+link: /
+author: Sourabh
+
+fpm is “ftd package manager”, defines a package format for packaging
+ftd files. fpm packages can depend on other fpm packages, and fpm ...
+
+-- lib.blog-card: How to create a blog through FPM?
+image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_664_q04opt.png
+date: 04 Oct 2021
+link: /
+author: Sourabh
+
+
+fpm is “ftd package manager”, defines a package format for packaging
+ftd files. fpm packages can depend on other fpm packages, and fpm ...
+
+
+
+-- container: main
+
+-- lib.footer: FPM BLOG - LATEST FPM NEWS & UPDATES
+copyright: © 2021 FPM Blog - Latest FPM News & Updates
+links: $toc
+logo: https://res.cloudinary.com/dphj6havg/image/upload/v1638860433/Group_552_uanei2.svg
+
+fpm is “ftd package manager”, defines a package format for packaging ftd files.
+fpm packages can depend on other fpm packages, and fpm can install all the
+dependencies of a package.

@@ -1,6 +1,0 @@
--- import: fpm
-
--- fpm.package: ftd
-
--- fpm.dependency: fifthtry/blog-theme
-repo: github

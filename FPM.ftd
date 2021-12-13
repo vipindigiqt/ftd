@@ -2,5 +2,8 @@
 
 -- fpm.package: ftd
 
+-- fpm.font: myFirstFont
+woff2: https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKOzY.woff2
+
 -- fpm.dependency: fifthtry/blog-theme
 repo: github

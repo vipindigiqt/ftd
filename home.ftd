@@ -1,3 +1,5 @@
+-- import: lib
+
 -- ftd.row:
 id: main
 padding: 20
@@ -25,35 +27,15 @@ align: right
 spacing: 30
 align: center
 
--- ftd.text: Home
-link: #
-size: 20
-color: white
-align: center
+-- lib.nav-link: Home
 
--- ftd.text: Docs
-link: #
-size: 20
-color: white
-align: center
+-- lib.nav-link: Docs
 
--- ftd.text: Resources
-link: #
-size: 20
-color: white
-align: center
+-- lib.nav-link: Resources
 
--- ftd.text: Showcase
-link: #
-size: 20
-color: white
-align: center
+-- lib.nav-link: Showcase
 
--- ftd.text: News
-link: #
-size: 20
-color: white
-align: center
+-- lib.nav-link: News
 
 -- ftd.image:
 link: #
@@ -66,7 +48,7 @@ align: center
 -- ftd.row:
 id: hero
 width: fill
-background-color: white
+background-color: \#F6F7FB
 padding-top: 60
 padding-bottom: 60
 
@@ -75,26 +57,11 @@ align: left
 width: 600
 margin-left: 120
 
--- ftd.text: Create amazing sites quickly & store data as well
-region: h2
-style: bold
-size: 70
-margin-bottom: 20
-color: \#151E4F
+-- lib.hero-title: Create amazing sites quickly & store data as well
 
--- ftd.text: It allows to bundle a bunch of FTD together into "packages", and package manager could upload it or download it.
-size: 36
-margin-bottom: 40
+-- lib.hero-intro: It allows to bundle a bunch of FTD together into "packages", and package manager could upload it or download it.
 
--- ftd.text: Download
-link: #
-padding-horizontal: 25
-padding-vertical: 20
-background-color: \#4540D9
-color: white
-size: 42
-font: bold
-border-radius: 10
+-- lib.download-link: Download
 
 -- container: hero
 
@@ -102,17 +69,24 @@ border-radius: 10
 align: right
 margin-right: 120
 
--- ftd.image:
+-- lib.hero-image:
 src: https://i.imgur.com/5ei5fam.png
-width: 500
 
 -- container: ftd.main
+
+-- ftd.column:
+padding-vertical: 60
+width: fill
+background-color: \#F6F7FB
 
 -- ftd.text: Some of the features of FPM
 style: bold
 align: center
 size: 64
-padding-vertical: 40
+
+-- ftd.column:
+align: center
+id: features-col
 
 -- ftd.row:
 id: features
@@ -121,6 +95,7 @@ align: center
 spacing: 50
 padding-left: 120
 padding-right: 120
+padding-top: 80
 
 -- ftd.column:
 width: 400
@@ -128,19 +103,12 @@ align: center
 background-color: white
 padding: 40
 
--- ftd.image:
+-- lib.feature-image:
 src: https://i.imgur.com/paWeZtR.png
-width: 55
-margin-bottom: 20
 
--- ftd.text: Main feature 1
-style: bold
-size: 40
-margin-bottom: 20
+-- lib.feature-title: Main feature 1
 
--- ftd.text:
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
 
 -- container: features
 
@@ -150,19 +118,12 @@ align: center
 background-color: white
 padding: 40
 
--- ftd.image:
+-- lib.feature-image:
 src: https://i.imgur.com/dvrTwa4.png
-width: 55
-margin-bottom: 20
 
--- ftd.text: Main feature 1
-style: bold
-size: 40
-margin-bottom: 20
+-- lib.feature-title: Main feature 2
 
--- ftd.text:
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
 
 -- container: features
 
@@ -172,19 +133,12 @@ align: center
 background-color: white
 padding: 40
 
--- ftd.image:
+-- lib.feature-image:
 src: https://i.imgur.com/Uo2Sz0C.png
-width: 55
-margin-bottom: 20
 
--- ftd.text: Main feature 1
-style: bold
-size: 40
-margin-bottom: 20
+-- lib.feature-title: Main feature 3
 
--- ftd.text:
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
 
 -- container: ftd.main
 
@@ -202,10 +156,12 @@ align: left
 -- ftd.text:
 margin-bottom: 40
 color: white
+
 FPM is lovingly maintained by the core team of volunteers
 
 -- ftd.text:
 color: white
+
 The contents of this website are © 2021 under the terms of the BSE License
 
 -- container: footer

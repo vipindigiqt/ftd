@@ -1,0 +1,52 @@
+-- ftd.text nav-link: $title
+caption title:
+string url: #
+link: $url
+size: 20
+color: white
+align: center
+font: Roboto
+
+-- ftd.text hero-title: $title
+caption title:
+region: h2
+style: bold
+size: 70
+margin-bottom: 20
+color: \#151E4F
+
+-- ftd.text hero-intro: $text
+caption text:
+size: 36
+margin-bottom: 40
+
+-- ftd.text download-link: $title
+caption title:
+link: #
+padding-horizontal: 25
+padding-vertical: 20
+background-color: \#4540D9
+color: white
+size: 42
+font: bold
+border-radius: 10
+
+-- ftd.image hero-image:
+string src:
+src: $src
+width: 500
+
+-- ftd.image feature-image:
+string src:
+src: $src
+width: 55
+margin-bottom: 20
+
+-- ftd.text feature-title: $title
+caption title:
+style: bold
+size: 40
+margin-bottom: 20
+
+-- ftd.text feature-desc: $desc
+caption desc:

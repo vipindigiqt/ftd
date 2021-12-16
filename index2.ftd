@@ -1,0 +1,19 @@
+-- import: lib2
+
+-- lib2.header:
+logo: https://i.imgur.com/aijdJIB.png
+
+-- lib2.hero:
+title: Create amazing sites quickly & store data as well
+intro: It allows to bundle a bunch of FTD together into "packages", and package manager could upload it or download it.
+image: https://i.imgur.com/5ei5fam.png
+button: Download
+button-link: #
+
+-- lib2.features:
+title: Some: of the features of FPM
+
+-- lib2.feature-item:
+image: https://i.imgur.com/paWeZtR.png
+title: Main feature 1
+intro: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type

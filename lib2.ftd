@@ -1,0 +1,85 @@
+-- ftd.row header:
+string logo:
+width: fill
+padding: 20
+background-color: \#151E4F
+
+--- ftd.image:
+src: $logo
+link: #
+width: 180
+margin-left: 120
+
+--- ftd.column:
+align: right
+width: 650
+
+-- ftd.row hero:
+string title:
+string intro:
+string image:
+string button:
+string button-link:
+width: fill
+background-color: \#F6F7FB
+padding-vertical: 80
+padding-horizontal: 120
+
+--- ftd.column:
+align: left
+
+--- ftd.text: $title
+style: bold
+size: 70
+margin-bottom: 20
+color: \#151E4F
+
+--- ftd.text: $intro
+size: 36
+margin-bottom: 40
+
+--- ftd.text: $button
+link: $button-link
+padding-horizontal: 25
+padding-vertical: 20
+background-color: \#4540D9
+color: white
+size: 42
+font: bold
+border-radius: 10
+
+--- ftd.column:
+align: right
+
+--- ftd.image:
+src: $image
+
+-- ftd.column features:
+caption title:
+width: fill
+align: center
+background-color: \#F6F7FB
+padding-vertical: 90
+
+--- ftd.text: $title
+style: bold
+align: center
+size: 64
+
+-- ftd.row features:
+width: fill
+
+-- ftd.column feature-item:
+string image:
+caption title:
+caption intro:
+width: 900
+margin-left: auto
+margin-right: auto
+
+--- ftd.image:
+src: $image
+
+--- ftd.text: $title
+
+-- ftd.intro: $intro

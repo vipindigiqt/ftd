@@ -1,11 +1,25 @@
+-- ftd.image nav-logo:
+string src:
+string link:
+src: $src
+width: 180
+align: center
+
 -- ftd.text nav-link: $title
 caption title:
 string url: #
 link: $url
-size: 20
 color: white
+size: 18
 align: center
 font: Roboto
+
+-- ftd.image nav-github:
+string src:
+string link:
+src: $src
+width: 52
+align: center
 
 -- ftd.text hero-title: $title
 caption title:
@@ -36,6 +50,13 @@ string src:
 src: $src
 width: 500
 
+-- ftd.text feature-title: $title
+caption title:
+style: bold
+align: center
+width: fill
+size: 64
+
 -- ftd.image feature-image:
 string src:
 src: $src
@@ -50,3 +71,28 @@ margin-bottom: 20
 
 -- ftd.text feature-desc: $desc
 caption desc:
+
+-- ftd.text col-1-text: $title
+caption title:
+margin-bottom: 40
+color: white
+
+-- ftd.text col-3-text: $title
+caption title:
+color: white
+
+-- ftd.text col-2-text: $title
+caption title:
+color: white
+align: right
+margin-right: 10
+
+-- ftd.image col-2-image:
+string src:
+src: $src
+width: 150
+align: center
+
+-- ftd.text col-4-text: $title
+caption title:
+color: white

@@ -1,85 +1,131 @@
--- import: fifthtry/blog-theme as lib
+-- import: lib
 
--- lib.toc list toc:
-
--- toc: Home
-link: /
-
--- toc: Support
-link: /
-
--- toc: Contact Us
-link: /
-
--- toc: Github
-link: /
-
--- ftd.column:
-width: fill
-id: main
-
--- lib.banner:
-
--- container: main
-
-
--- ftd.column:
-width: fill
-
--- lib.header:
-logo: https://res.cloudinary.com/dphj6havg/image/upload/v1638644344/Group_551_gqhmnl.svg
-toc: $toc
-
--- container: main
-
--- lib.welcome-section: Hello! Welcome to  FPM blog
-
-A ftd package manager”, defines a package format  for packaging ftd files. fpm packages can
-depend on other fpm packages, and fpm can install all the dependencies  of a package.
-
--- container: main
+-- container: ftd.main
 
 -- ftd.row:
+id: hero
 width: fill
+background-color: \#F6F7FB
+padding-top: 60
+padding-bottom: 60
+
+-- ftd.column:
+align: left
+width: 600
+margin-left: 120
+
+-- lib.hero-title: Create amazing sites quickly & store data as well
+
+-- lib.hero-intro: It allows to bundle a bunch of FTD together into "packages", and package manager could upload it or download it.
+
+-- lib.download-link: Download
+
+-- container: hero
+
+-- ftd.column:
+align: right
+margin-right: 120
+
+-- lib.hero-image:
+src: https://i.imgur.com/5ei5fam.png
+
+-- container: ftd.main
+
+-- ftd.column:
+padding-vertical: 60
+width: fill
+align: center
+background-color: \#F6F7FB
+
+-- lib.feature-title: Some of the features of FPM
+
+-- ftd.column:
+align: center
+id: features-col
+
+-- ftd.row:
+id: features
+width: fill
+align: center
 spacing: 50
-id: content
-padding-vertical: 40
-padding-horizontal: 100
+padding-left: 120
+padding-right: 120
+padding-top: 80
+
+-- ftd.column:
+width: 400
+align: center
+background-color: white
+padding: 40
+
+-- lib.feature-image:
+src: https://i.imgur.com/paWeZtR.png
+
+-- lib.feature-title: Main feature 1
+
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+
+-- container: features
+
+-- ftd.column:
+width: 400
+align: center
+background-color: white
+padding: 40
+
+-- lib.feature-image:
+src: https://i.imgur.com/dvrTwa4.png
+
+-- lib.feature-title: Main feature 2
+
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+
+-- container: features
+
+-- ftd.column:
+width: 400
+align: center
+background-color: white
+padding: 40
+
+-- lib.feature-image:
+src: https://i.imgur.com/Uo2Sz0C.png
+
+-- lib.feature-title: Main feature 3
+
+-- lib.feature-desc: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+
+-- container: ftd.main
 
 -- ftd.row:
+id: footer
 width: fill
-spacing: 20
-wrap: true
+padding-vertical: 40
+padding-horizontal: 120
+background-color: \#151E4F
 
+-- ftd.column:
+width: 400
+align: left
 
--- lib.blog-card: What is FPM?
-image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_663_raj9bt.png
-date: 04 Oct 2021
-link: /
-author: Sourabh
+-- lib.col-1-text: FPM is lovingly maintained by the core team of volunteers
 
-fpm is “ftd package manager”, defines a package format for packaging
-ftd files. fpm packages can depend on other fpm packages, and fpm ...
+-- lib.col-3-text: The contents of this website are © 2021 under the terms of the BSE License
 
--- lib.blog-card: How to create a blog through FPM?
-image: https://res.cloudinary.com/dphj6havg/image/upload/v1638648047/Rectangle_664_q04opt.png
-date: 04 Oct 2021
-link: /
-author: Sourabh
+-- container: footer
 
+-- ftd.column:
+align: right
+id: logo
 
-fpm is “ftd package manager”, defines a package format for packaging
-ftd files. fpm packages can depend on other fpm packages, and fpm ...
+-- ftd.row:
+margin-bottom: 40
 
+-- lib.col-2-text: Proudly hosted by
 
+-- lib.col-2-image:
+src: https://i.imgur.com/MpRa7Hs.png
 
--- container: main
+-- container: logo
 
--- lib.footer: FPM BLOG - LATEST FPM NEWS & UPDATES
-copyright: © 2021 FPM Blog - Latest FPM News & Updates
-links: $toc
-logo: https://res.cloudinary.com/dphj6havg/image/upload/v1638860433/Group_552_uanei2.svg
-
-fpm is “ftd package manager”, defines a package format for packaging ftd files.
-fpm packages can depend on other fpm packages, and fpm can install all the
-dependencies of a package.
+-- lib.col-4-text: FPM  is funded, thanks to its sponsors!

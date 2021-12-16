@@ -1,0 +1,43 @@
+-- ftd.row:
+id: footer
+width: fill
+padding-vertical: 40
+padding-horizontal: 120
+background-color: \#151E4F
+
+-- ftd.column:
+width: 400
+align: left
+
+-- ftd.text:
+margin-bottom: 40
+color: white
+FPM is lovingly maintained by the core team of volunteers
+
+-- ftd.text:
+color: white
+The contents of this website are © 2021 under the terms of the BSE License
+
+-- container: footer
+
+-- ftd.column:
+align: right
+id: logo
+
+-- ftd.row:
+margin-bottom: 40
+
+-- ftd.text: Proudly hosted by
+color: white
+align: right
+margin-right: 10
+
+-- ftd.image:
+src: https://i.imgur.com/MpRa7Hs.png
+width: 150
+align: center
+
+-- container: logo
+
+-- ftd.text: FPM  is funded, thanks to its sponsors!
+color: white

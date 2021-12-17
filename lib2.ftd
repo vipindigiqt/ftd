@@ -48,13 +48,18 @@ size: 42
 font: bold
 border-radius: 10
 
+--- container: ftd.main
+
 --- ftd.column:
 align: right
 
 --- ftd.image:
 src: $image
 
+--- container: ftd.main
+
 -- ftd.column features:
+open: inner-row
 caption title:
 width: fill
 align: center
@@ -66,20 +71,81 @@ style: bold
 align: center
 size: 64
 
--- ftd.row features:
+--- ftd.row:
+id: inner-row
 width: fill
+padding: 10
+spacing: 40
+align: center
+padding-top: 50
 
 -- ftd.column feature-item:
 string image:
 caption title:
-caption intro:
-width: 900
-margin-left: auto
-margin-right: auto
+body intro:
+width: 300
+padding: 30
+background-color: white
 
 --- ftd.image:
 src: $image
+width: 55
+margin-bottom: 50
 
 --- ftd.text: $title
+size: 32
+style: bold
 
--- ftd.intro: $intro
+--- ftd.text:
+
+$intro
+
+-- ftd.row footer:
+string col1text:
+string col2text:
+string col3image:
+string col3text:
+string col4text:
+width: fill
+padding-vertical: 90
+padding-horizontal: 120
+background-color: \#151E4F
+
+--- ftd.column:
+align: left
+
+--- ftd.text: $col1text
+color: white
+size: 30
+width: 500
+margin-bottom: 40
+
+--- ftd.text: $col2text
+color: white
+size: 30
+
+--- container: ftd.main
+
+--- ftd.column:
+align: right
+id: column2
+
+--- ftd.row:
+spacing: 10
+
+--- ftd.text: $col3text
+color: white
+align: center
+size: 30
+
+--- ftd.image:
+src: $col3image
+width: 240
+align: center
+
+--- container: column2
+
+--- ftd.text: $col4text
+color: white
+size: 30
+margin-top: 40

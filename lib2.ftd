@@ -1,5 +1,17 @@
 -- ftd.row header:
 string logo:
+string nav1anchor:
+string nav1link:
+string nav2anchor:
+string nav2link:
+string nav3anchor:
+string nav3link:
+string nav4anchor:
+string nav4link:
+string nav5anchor:
+string nav5link:
+string github-image:
+string github-link:
 width: fill
 padding: 20
 background-color: \#151E4F
@@ -13,6 +25,50 @@ margin-left: 120
 --- ftd.column:
 align: right
 width: 650
+
+--- ftd.row:
+spacing: 40
+
+--- ftd.text: $nav1anchor
+link: $nav1link
+color: white
+size: 20
+style: bold
+align: center
+
+--- ftd.text: $nav2anchor
+link: $nav2link
+color: white
+size: 20
+style: bold
+align: center
+
+--- ftd.text: $nav3anchor
+link: $nav3link
+color: white
+size: 20
+style: bold
+align: center
+
+--- ftd.text: $nav4anchor
+link: $nav4link
+color: white
+size: 20
+style: bold
+align: center
+
+--- ftd.text: $nav5anchor
+link: $nav5link
+color: white
+size: 20
+style: bold
+align: center
+
+--- ftd.image:
+src: $github-image
+link: $github-link
+width: 50                       
+align: center
 
 -- ftd.row hero:
 string title:

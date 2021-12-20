@@ -1,19 +1,6 @@
 -- import: lib2
 
--- lib2.header:
-logo: https://i.imgur.com/aijdJIB.png
-nav1anchor: Home
-nav1link: #
-nav2anchor: Docs
-nav2link: #
-nav3anchor: Resources
-nav3link: #
-nav4anchor: Showcase
-nav4link: #
-nav5anchor: News
-nav5link: #
-github-image: https://i.imgur.com/HPx4FkW.png
-github-link: #
+-- lib2.page:
 
 -- lib2.hero:
 title: Create amazing sites quickly & store data as well
@@ -51,10 +38,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy
 text ever since the 1500s,
 when an unknown printer took a galley of type
-
--- lib2.footer:
-col1text: FPM is lovingly maintained by the core team of volunteers
-col3text: Proudly hosted by
-col3image: https://i.imgur.com/MpRa7Hs.png
-col2text: The contents of this website are © 2021 under the terms of the BSE License
-col4text: FPM  is funded, thanks to its sponsors!

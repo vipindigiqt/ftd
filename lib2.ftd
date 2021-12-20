@@ -1,3 +1,37 @@
+-- boolean mobile: true
+
+-- ftd.column page:
+width: fill
+open: content
+
+--- header:
+logo: https://i.imgur.com/aijdJIB.png
+nav1anchor: Home
+nav1link: #
+nav2anchor: Docs
+nav2link: #
+nav3anchor: Resources
+nav3link: #
+nav4anchor: Showcase
+nav4link: #
+nav5anchor: News
+nav5link: #
+github-image: https://i.imgur.com/HPx4FkW.png
+github-link: #
+menu-icon: https://i.imgur.com/sbTot16.png
+
+--- ftd.column:
+id: content
+
+--- container: ftd.main
+
+--- footer:
+col1text: FPM is lovingly maintained by the core team of volunteers
+col3text: Proudly hosted by
+col3image: https://i.imgur.com/MpRa7Hs.png
+col2text: The contents of this website are © 2021 under the terms of the BSE License
+col4text: FPM  is funded, thanks to its sponsors!
+
 -- ftd.row header:
 string logo:
 string nav1anchor:
@@ -12,6 +46,7 @@ string nav5anchor:
 string nav5link:
 string github-image:
 string github-link:
+string menu-icon:
 width: fill
 padding: 20
 background-color: \#151E4F
@@ -26,7 +61,15 @@ margin-left: 120
 align: right
 width: 650
 
+--- ftd.image:
+if: $mobile
+src: $menu-icon
+width: 40
+align: right
+margin-right: 16
+
 --- ftd.row:
+if: not $mobile
 spacing: 40
 
 --- ftd.text: $nav1anchor
@@ -81,7 +124,7 @@ background-color: \#F6F7FB
 padding-vertical: 80
 padding-horizontal: 120
 
---- ftd.column:
+--- ftd.column:e
 align: left
 
 --- ftd.text: $title
@@ -131,7 +174,7 @@ size: 64
 id: inner-row
 width: fill
 padding: 10
-spacing: 40
+spacing: space-around
 align: center
 padding-top: 50
 
@@ -139,7 +182,7 @@ padding-top: 50
 string image:
 caption title:
 body intro:
-width: 300
+width: percent 30
 padding: 30
 background-color: white
 
